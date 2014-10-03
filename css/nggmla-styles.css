@@ -1,0 +1,33 @@
+.nggmla-error {
+    background-color : #FFEBE8;
+    border           : 1px solid #C00;
+    border-radius    : 3px 3px 3px 3px;
+    display          : none;
+    padding          : 0 0.6em;
+    margin           : 5px 0 15px;
+}
+
+#nggmla-images-preview ul li {
+    background    : -moz-linear-gradient(center top, #FFF 5%, #DDD 100%) repeat scroll 0 0 #FFF;
+    background    : -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFF), to(#DDD));
+    background    : -webkit-linear-gradient(top, #DDD, #FFF);
+    background    : -ms-linear-gradient(top, #DDD, #FFF);
+    background    : -o-linear-gradient(top, #DDD, #FFF);
+    border-radius : 5px 5px 5px 5px;
+    box-shadow    : 0 0 3px rgba(0, 0, 0, 0.5);
+    display       : inline-block;
+    list-style    : none;
+    margin        : 0 7px 15px;
+    max-width     : 150px;
+    overflow      : hidden;
+    width         : 40%;
+}
+
+#nggmla-images-preview ul li img {
+    border-radius : 5px;
+    display       : block;
+}
+
+#nggmla-images-preview ul li p {
+    margin-left : 5px;
+}
