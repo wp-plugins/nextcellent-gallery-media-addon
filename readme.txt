@@ -11,9 +11,9 @@ This plugin adds a feature to NextCellent Gallery to add an image from the WP Me
 
 == Description ==
 
-If you use NextCellent Gallery, then you know that, when you create a gallery, you must upload the images for that gallery, which is then stored in a separate folder from your WordPress Media Library. For large websites with hundreds and hundreds of images, like some of my high profile clients, this can add strain on the server, causing long page load times, in turn effecting Google rankings.
+If you use NextCellent Gallery, then you know that, when you create a gallery, you must upload the images for that gallery, which is then stored in a separate folder from your WordPress Media Library.
 
-Now, with our NextCellent Gallery Media Library Addon, you will have the option of adding images that are already stored in your Media Library. Just like adding an image to a page or post, adding an image to your NextGEN Gallery can be a matter of clicking a button and finding an image you have already uploaded.
+Now, with this NextCellent Gallery Media Library Addon, you will have the option of adding images that are already stored in your Media Library. Just like adding an image to a page or post, adding an image to your NextGEN Gallery can be a matter of clicking a button and finding an image you have already uploaded.
 
 == Installation ==
 
@@ -26,7 +26,7 @@ Now, with our NextCellent Gallery Media Library Addon, you will have the option 
 == Changelog ==
 
 = 1.0.0 =
-* -Updated to work with NextCellent
+* Updated to work with NextCellent
 
 This is the old changelog.
 
