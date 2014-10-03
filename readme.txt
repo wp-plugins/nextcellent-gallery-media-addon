@@ -7,7 +7,7 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-This plugin adds a feature to NextCellent Gallery Plugin to add an image from the WP Media Library.
+This plugin adds a feature to NextCellent Gallery to add an image from the WP Media Library.
 
 == Description ==
 
@@ -22,14 +22,6 @@ Now, with our NextCellent Gallery Media Library Addon, you will have the option 
 2. Upload nextgen-gallery-media-library-addon.zip via "wp-admin/plugin-install.php?tab=upload" or if using FTP, unzip nextgen-gallery-media-library-addon.zip and upload `/nextgen-gallery-media-library-addon/` directory to the `/wp-content/plugins/` directory.
 
 3. Activate the plugin through the 'Plugins' menu in WordPress (under plugin name: **"NextCellent Gallery Media Library Addon"**).
-
-== Screenshots ==
-
-1. Screenshot shows the NGG Media Library Addon option.
-2. Screenshot shows the NGG Media Library Addon feature.
-3. Screenshot shows the Media Library to add an image.
-4. Screenshot shows the WP Directory installation process.
-5. Screenshot shows the WP Upload Zip file installation process.
 
 == Changelog ==
 
