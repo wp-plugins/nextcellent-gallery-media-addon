@@ -1,4 +1,4 @@
-=== NextGEN Gallery Media Library Addon ===
+=== NextCellent Gallery Media Library Addon ===
 Contributors: niknetniko
 Tags: nextgen gallery, nextcellent, gallery images, media library, adding images, extensions
 Requires at least: 3.8
