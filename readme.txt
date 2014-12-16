@@ -1,8 +1,8 @@
 === NextCellent Gallery Media Library Addon ===
 Contributors: niknetniko
 Tags: nextgen gallery, nextcellent, gallery images, media library, adding images, extensions
-Requires at least: 3.6
-Tested up to: 4.0
+Requires at least: 3.8
+Tested up to: 4.1
 Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
