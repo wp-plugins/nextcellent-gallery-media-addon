@@ -3,7 +3,7 @@
 Plugin Name: NextCellent Gallery Media Library Addon
 Plugin URI: https://bitbucket.org/niknetniko/nextcellent-media-addon
 Description: An addon to NextCellent.
-Version: 1.0.1
+Version: 1.0.2
 Author: niknetniko
  */
 /*
@@ -327,7 +327,7 @@ if ( !class_exists( 'NextCellentMediaLibraryAddon' ) ) {
 			$url           = urldecode( $image['url'] );
 			$temp_name     = tempnam( sys_get_temp_dir(), 'nggmla' );
 			$original_name = basename( parse_url( $url, PHP_URL_PATH ) );
-			$response      = wp_remote_get( $url );
+			$response      = wp_remote_get( $url, array( 'sslverify' => false ) );
 			$img_raw_data  = wp_remote_retrieve_body( $response );
 			file_put_contents( $temp_name, $img_raw_data );
 			$type                   = wp_check_filetype_and_ext( $temp_name, $original_name );
