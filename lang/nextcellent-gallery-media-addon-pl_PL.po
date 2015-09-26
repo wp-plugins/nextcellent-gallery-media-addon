@@ -1,0 +1,248 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NextCellent Gallery Media Library Addon\n"
+"POT-Creation-Date: 2015-08-27 17:31+0200\n"
+"PO-Revision-Date: 2015-08-27 17:31+0200\n"
+"Last-Translator: Niko Strijbol <strijbol.niko@gmail.com>\n"
+"Language-Team: Frank P. Walentynowicz <frankpw@fw2s.com>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: src/Bootstrap.php:59
+msgid "Preview"
+msgstr "Podgląd"
+
+#: src/Bootstrap.php:60
+msgid "Choose Image"
+msgstr "Wybierz Obrazki"
+
+#: src/Bootstrap.php:61
+msgid "Import title from:"
+msgstr "Importuj tytuł z:"
+
+#: src/Bootstrap.php:62
+msgid "Import description from:"
+msgstr "Importuj opis z:"
+
+#: src/Bootstrap.php:64
+msgid "Caption"
+msgstr "Etykieta"
+
+#: src/Bootstrap.php:65
+msgid "Alternative Text"
+msgstr "Alternatywny Tekst"
+
+#: src/Bootstrap.php:66
+msgid "Description"
+msgstr "Opis"
+
+#: src/Library.php:144
+msgid "Failure in database, no gallery path set !"
+msgstr "Błąd bazy danych. brak ścieżki do galerii!"
+
+#: src/Library.php:170
+msgid " is not an image."
+msgstr "nie jest obrazkiem."
+
+#: src/Library.php:182
+#, php-format
+msgid ""
+"Unable to write to directory %s. Is this directory writable by the server?"
+msgstr ""
+"Nie można zapisać do folderu %s. Czy ten folder ma uprawnienia do zapisu?"
+
+#: src/Library.php:197
+msgid "Error, the file could not be moved to : "
+msgstr "Błąd, plik nie może być przeniesiony do:"
+
+#: src/Library.php:205
+msgid "Error, the file permissions could not be set"
+msgstr "Błąd, nie można ustawić uprawnień pliku"
+
+#: src/Library.php:233
+msgctxt "n image(s) successfully added"
+msgid "image"
+msgid_plural "images"
+msgstr[0] "obrazek"
+msgstr[1] "obrazki"
+msgstr[2] "obrazków"
+
+#: src/Library.php:234
+msgid "successfully added to"
+msgstr "dodano pomyślnie do galerii"
+
+#: src/Library.php:241
+msgid "Error in transferring"
+msgstr "Błąd w przesyłaniu"
+
+#: src/Library.php:242
+msgctxt "Error in transferring n selected image(s)"
+msgid "selected"
+msgid_plural "selected"
+msgstr[0] "wybranego"
+msgstr[1] "wybranych"
+msgstr[2] "wybranych"
+
+#: src/Library.php:243
+msgctxt "Error in transferring n selected image(s)"
+msgid "image"
+msgid_plural "images"
+msgstr[0] "obrazka"
+msgstr[1] "obrazków"
+msgstr[2] "obrazków"
+
+#: src/Library.php:253
+msgctxt "taxonomy general name"
+msgid "Media Tags"
+msgstr "Tagi Mediów"
+
+#: src/Library.php:254
+msgctxt "taxonomy singular name"
+msgid "Media Tag"
+msgstr "Tag Medium"
+
+#: src/Library.php:255
+msgid "Search Media Tags"
+msgstr "Wyszukaj Tagi Mediów"
+
+#: src/Library.php:256
+msgid "Popular Media Tags"
+msgstr "Popularne Tagi Mediów"
+
+#: src/Library.php:257
+msgid "All Media Tags"
+msgstr "Wszystkie Tagi Mediów"
+
+#: src/Library.php:260
+msgid "Edit Media Tag"
+msgstr "Edytuj Tag Medium"
+
+#: src/Library.php:261
+msgid "Update Media Tag"
+msgstr "Aktualizuj Tag Medium"
+
+#: src/Library.php:262
+msgid "Add New Media Tag"
+msgstr "Dodaj Nowy Tag Medium"
+
+#: src/Library.php:263
+msgid "New Media Tag Name"
+msgstr "Nazwa Nowego Tagu Medium"
+
+#: src/Library.php:264
+msgid "Separate media tags with commas"
+msgstr "Oddziel kolejne tagi mediów przecinkami"
+
+#: src/Library.php:265
+msgid "Add or remove media tags"
+msgstr "Dodaj lub usuń tagi mediów"
+
+#: src/Library.php:266
+msgid "Choose from the most used media tags"
+msgstr "Wybierz z najczęściej używanych tagów mediów"
+
+#: src/Library.php:267
+msgid "No media tags found."
+msgstr "Nie znaleziono żadnych tagów mediów."
+
+#: src/Library.php:268
+msgid "Media Tags"
+msgstr "Tagi Mediów"
+
+#: src/MediaAddonTab.php:48
+msgid "Media Library"
+msgstr "Biblioteka Mediów"
+
+#: src/MediaAddonTab.php:57
+msgid "Add images from the media library"
+msgstr "Dodaj obrazki z biblioteki mediów"
+
+#: src/MediaAddonTab.php:60
+msgid "Add images to:"
+msgstr "Dodaj obrazki do:"
+
+#: src/MediaAddonTab.php:62
+msgid "Choose gallery"
+msgstr "Wybierz galerię"
+
+#: src/MediaAddonTab.php:63
+msgid "New gallery"
+msgstr "Nowa galeria"
+
+#: src/MediaAddonTab.php:71
+msgid "Select Images"
+msgstr "Wybierz Obrazki"
+
+#: src/MediaAddonTab.php:79
+msgid "Add to Gallery"
+msgstr "Dodaj do Galerii"
+
+#: src/MediaAddonTab.php:80
+msgid "Copying..."
+msgstr "Kopiowanie..."
+
+#: src/MediaAddonTab.php:99
+msgid "No gallery selected!"
+msgstr "Nie wybrano żadnej galerii!"
+
+#: src/MediaAddonTab.php:107
+msgid "Enter a name for the new gallery!"
+msgstr "Wprowadź nazwę dla nowej galerii!"
+
+#: src/MediaAddonTab.php:114
+msgid "No images selected!"
+msgstr "Nie wybrano żadnych obrazków!"
+
+#: src/MediaAddonTab.php:127
+msgid "No cheating!"
+msgstr "Nie oszukuj!"
+
+#: src/MediaAddonTab.php:158
+msgid "Image upload error!"
+msgstr "Błąd wysyłania obrazka!"
+
+#~ msgid ""
+#~ "this plugin requires <strong>NextCellent Gallery</strong> to be installed "
+#~ "and activated first before it can work properly."
+#~ msgstr ""
+#~ "ta wtyczka wymaga wtyczki <strong>NextCellent Gallery</strong>, "
+#~ "zainstalowanej i włączonej, aby mogła pracować poprawnie."
+
+#~ msgid ""
+#~ "SAFE MODE Restriction in effect! You need to create the folder <strong>"
+#~ "%s</strong> manually"
+#~ msgstr ""
+#~ "Ograniczenie TRYBU BEZPIECZNEGO! Należy ręcznie utworzyć folder <strong>"
+#~ "%s</strong>"
+
+#~ msgid ""
+#~ "When safe_mode is on, PHP checks to see if the owner (%s) of the current "
+#~ "script matches the owner (%s) of the file to be operated on by a file "
+#~ "function or its directory"
+#~ msgstr ""
+#~ "W TRYBIE BEZPIECZNYM, PHP sprawdza, czy właściciel (%s) skryptu jest "
+#~ "także, właścicielem (%s) pliku lub folderu"
+
+#~ msgid "image"
+#~ msgid_plural "images"
+#~ msgstr[0] "obrazek"
+#~ msgstr[1] "obrazki"
+#~ msgstr[2] "obrazków"
+
+#~ msgid "to"
+#~ msgstr "do"
+
+#~ msgid "%sThis plugin requires "
+#~ msgstr "%sTa wtyczka wymaga "
