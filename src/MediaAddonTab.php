@@ -1,6 +1,6 @@
 <?php
 
-namespace NextCellent\MediaLibraryAddon;
+namespace Nextcellent\MediaLibraryAddon;
 
 
 use nggAdmin;

@@ -1,6 +1,6 @@
 <?php
 
-namespace NextCellent\MediaLibraryAddon;
+namespace Nextcellent\MediaLibraryAddon;
 
 /**
  * This is the main plugin class. It is responsible for loading everything
@@ -37,9 +37,9 @@ class Bootstrap
         $tab->load();
 
         // Register nggmla_media_tags taxonomy
-        add_action( 'init', 'NextCellent\MediaLibraryAddon\Library::register_taxonomy' );
+        add_action( 'init', 'Nextcellent\MediaLibraryAddon\Library::register_taxonomy' );
         // Add nggmla_media_tags in image search
-        add_action( 'pre_get_posts', 'NextCellent\MediaLibraryAddon\Library::search_media_tags', 999 );
+        add_action( 'pre_get_posts', 'Nextcellent\MediaLibraryAddon\Library::search_media_tags', 999 );
     }
 
     public function add_scripts()

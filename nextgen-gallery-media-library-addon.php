@@ -49,7 +49,7 @@ function nextcellent_gallery_media_library_addon()
 
     include_once( 'src/Bootstrap.php' );
 
-    $bootstrap = new NextCellent\MediaLibraryAddon\Bootstrap($url);
+    $bootstrap = new Nextcellent\MediaLibraryAddon\Bootstrap($url);
     $bootstrap->start();
 }
 
