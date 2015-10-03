@@ -1,0 +1,21 @@
+.nggla-notice {
+	display: none;
+}
+
+#nggmla-images-preview ul li {
+	background: white;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+	display: inline-block;
+	list-style: none;
+	margin: 0 7px 15px;
+	max-width: 150px;
+	padding: 10px;
+}
+
+#nggmla-images-preview ul li img {
+	display: block;
+}
+
+#nggmla-selected-images-form #togallery_name {
+	display: none;
+}

@@ -1,0 +1,211 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NextCellent Gallery Media Library Addon\n"
+"POT-Creation-Date: 2015-08-27 17:29+0200\n"
+"PO-Revision-Date: 2015-08-27 17:29+0200\n"
+"Last-Translator: Niko Strijbol <strijbol.niko@gmail.com>\n"
+"Language-Team: Niko Strijbol <strijbol.niko@gmail.com>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: src/Bootstrap.php:59
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: src/Bootstrap.php:60
+msgid "Choose Image"
+msgstr "Afbeelding kiezen"
+
+#: src/Bootstrap.php:61
+msgid "Import title from:"
+msgstr "Titel importeren van:"
+
+#: src/Bootstrap.php:62
+msgid "Import description from:"
+msgstr "Beschrijving importeren van:"
+
+#: src/Bootstrap.php:64
+msgid "Caption"
+msgstr "onderschrift"
+
+#: src/Bootstrap.php:65
+msgid "Alternative Text"
+msgstr "Alternatieve tekst"
+
+#: src/Bootstrap.php:66
+msgid "Description"
+msgstr "Bescchrijving"
+
+#: src/Library.php:144
+msgid "Failure in database, no gallery path set !"
+msgstr "Databasefout, geen galerijpad ingesteld!"
+
+#: src/Library.php:170
+msgid " is not an image."
+msgstr "is geen afbeelding."
+
+#: src/Library.php:182
+#, php-format
+msgid "Unable to write to directory %s. Is this directory writable by the server?"
+msgstr "Kan niet schrijven in map %s. Is deze map beschrijfbaar door de server?"
+
+#: src/Library.php:197
+msgid "Error, the file could not be moved to : "
+msgstr "Fout, het bestand kon niet verplaatst worden naar: "
+
+#: src/Library.php:205
+msgid "Error, the file permissions could not be set"
+msgstr "Fout, de bestandspermissies konden niet ingesteld worden"
+
+#: src/Library.php:233
+msgctxt "n image(s) successfully added"
+msgid "image"
+msgid_plural "images"
+msgstr[0] "afbeelding"
+msgstr[1] "afbeeldingen"
+
+#: src/Library.php:234
+msgid "successfully added to"
+msgstr "succesvol toegevoegd aan"
+
+#: src/Library.php:241
+msgid "Error in transferring"
+msgstr "Fout bij overdracht"
+
+#: src/Library.php:242
+msgctxt "Error in transferring n selected image(s)"
+msgid "selected"
+msgid_plural "selected"
+msgstr[0] "geselecteerd"
+msgstr[1] "geselecteerd"
+
+#: src/Library.php:243
+msgctxt "Error in transferring n selected image(s)"
+msgid "image"
+msgid_plural "images"
+msgstr[0] "afbeelding"
+msgstr[1] "afbeeldingen"
+
+#: src/Library.php:253
+msgctxt "taxonomy general name"
+msgid "Media Tags"
+msgstr "Mediatags"
+
+#: src/Library.php:254
+msgctxt "taxonomy singular name"
+msgid "Media Tag"
+msgstr "Mediatag"
+
+#: src/Library.php:255
+msgid "Search Media Tags"
+msgstr "Mediatags zoeken"
+
+#: src/Library.php:256
+msgid "Popular Media Tags"
+msgstr "Populaire mediatags"
+
+#: src/Library.php:257
+msgid "All Media Tags"
+msgstr "Alle mediatags"
+
+#: src/Library.php:260
+msgid "Edit Media Tag"
+msgstr "Mediatags bewerken"
+
+#: src/Library.php:261
+msgid "Update Media Tag"
+msgstr "Mediatags bijwerken"
+
+#: src/Library.php:262
+msgid "Add New Media Tag"
+msgstr "Mediatag toevoegen"
+
+#: src/Library.php:263
+msgid "New Media Tag Name"
+msgstr "Naam nieuwe mediatag"
+
+#: src/Library.php:264
+msgid "Separate media tags with commas"
+msgstr "Verdeel mediatags met komma's"
+
+#: src/Library.php:265
+msgid "Add or remove media tags"
+msgstr "Mediatags toevoegen of verwijderen"
+
+#: src/Library.php:266
+msgid "Choose from the most used media tags"
+msgstr "Kies uit de meest gebruikte mediatags"
+
+#: src/Library.php:267
+msgid "No media tags found."
+msgstr "Geen mediatags gevonden."
+
+#: src/Library.php:268
+msgid "Media Tags"
+msgstr "Mediatags"
+
+#: src/MediaAddonTab.php:48
+msgid "Media Library"
+msgstr "Mediabibliotheek"
+
+#: src/MediaAddonTab.php:57
+msgid "Add images from the media library"
+msgstr "Afbeeldingen uit de mediabibliotheek toevoegen"
+
+#: src/MediaAddonTab.php:60
+msgid "Add images to:"
+msgstr "Afbeeldingen toevoegen aan:"
+
+#: src/MediaAddonTab.php:62
+msgid "Choose gallery"
+msgstr "Galerij kiezen"
+
+#: src/MediaAddonTab.php:63
+msgid "New gallery"
+msgstr "Nieuwe galerij"
+
+#: src/MediaAddonTab.php:71
+msgid "Select Images"
+msgstr "Afbeeldingen selecteren"
+
+#: src/MediaAddonTab.php:79
+msgid "Add to Gallery"
+msgstr "Toevoegen aan galerij"
+
+#: src/MediaAddonTab.php:80
+msgid "Copying..."
+msgstr "Kopiëren..."
+
+#: src/MediaAddonTab.php:99
+msgid "No gallery selected!"
+msgstr "Geen galerij geselecteerd!"
+
+#: src/MediaAddonTab.php:107
+msgid "Enter a name for the new gallery!"
+msgstr "Voeg een naam toe aan de nieuwe galerij!"
+
+#: src/MediaAddonTab.php:114
+msgid "No images selected!"
+msgstr "Geen afbeeldingen geselecteerd!"
+
+#: src/MediaAddonTab.php:127
+msgid "No cheating!"
+msgstr "Niet valsspelen!"
+
+#: src/MediaAddonTab.php:158
+msgid "Image upload error!"
+msgstr "Uploadfout afbeelding!"
+
+#~ msgid "this plugin requires <strong>NextCellent Gallery</strong> to be installed and activated first before it can work properly."
+#~ msgstr "deze plug-in vereist dat <strong>NextCellent Gallery</strong> geïnstalleerd is om goed te werken."
+
+#~ msgid "SAFE MODE Restriction in effect! You need to create the folder <strong>%s</strong> manually"
+#~ msgstr "SAFE MODE-restricties staan aan! Je moet de map <strong>%s</strong> zelf maken"
+
+#~ msgid "When safe_mode is on, PHP checks to see if the owner (%s) of the current script matches the owner (%s) of the file to be operated on by a file function or its directory"
+#~ msgstr "Als safe_mode aan staat, controleert PHP of dat de eigenaar (%s) van het script overeenkomt met de eigenaar (%s) van het bestand"
